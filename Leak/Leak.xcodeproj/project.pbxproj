@@ -14,6 +14,7 @@
 		7A69CF6F21B760990058D797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A69CF6D21B760990058D797 /* LaunchScreen.storyboard */; };
 		7A69CF7221B760990058D797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A69CF7121B760990058D797 /* main.m */; };
 		7A69CF7B21B761DF0058D797 /* LeaksTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A69CF7A21B761DF0058D797 /* LeaksTools.m */; };
+		7A69CF7F21B76B990058D797 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A69CF7E21B76B990058D797 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		7A69CF7921B761DF0058D797 /* LeaksTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeaksTools.h; sourceTree = "<group>"; };
 		7A69CF7A21B761DF0058D797 /* LeaksTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeaksTools.m; sourceTree = "<group>"; };
 		7A69CF7C21B769390058D797 /* LeakFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeakFinder.h; sourceTree = "<group>"; };
+		7A69CF7D21B76B990058D797 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		7A69CF7E21B76B990058D797 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				7A69CF6321B760970058D797 /* AppDelegate.m */,
 				7A69CF6521B760970058D797 /* ViewController.h */,
 				7A69CF6621B760970058D797 /* ViewController.m */,
+				7A69CF7D21B76B990058D797 /* TestViewController.h */,
+				7A69CF7E21B76B990058D797 /* TestViewController.m */,
 				7A69CF6821B760970058D797 /* Main.storyboard */,
 				7A69CF6B21B760990058D797 /* Assets.xcassets */,
 				7A69CF6D21B760990058D797 /* LaunchScreen.storyboard */,
@@ -160,6 +165,7 @@
 				7A69CF6721B760970058D797 /* ViewController.m in Sources */,
 				7A69CF7221B760990058D797 /* main.m in Sources */,
 				7A69CF6421B760970058D797 /* AppDelegate.m in Sources */,
+				7A69CF7F21B76B990058D797 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
