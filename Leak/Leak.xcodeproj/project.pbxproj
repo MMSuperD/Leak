@@ -15,6 +15,9 @@
 		7A69CF7221B760990058D797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A69CF7121B760990058D797 /* main.m */; };
 		7A69CF7B21B761DF0058D797 /* LeaksTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A69CF7A21B761DF0058D797 /* LeaksTools.m */; };
 		7A69CF7F21B76B990058D797 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A69CF7E21B76B990058D797 /* TestViewController.m */; };
+		7A69CF8221B7702E0058D797 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A69CF8121B7702E0058D797 /* NSObject+Swizzling.m */; };
+		7A69CF8521B771170058D797 /* ObjectLeakDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A69CF8421B771170058D797 /* ObjectLeakDetector.m */; };
+		7A69CF8821B7A9DE0058D797 /* UIViewController+Leak.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A69CF8721B7A9DE0058D797 /* UIViewController+Leak.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,12 @@
 		7A69CF7C21B769390058D797 /* LeakFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeakFinder.h; sourceTree = "<group>"; };
 		7A69CF7D21B76B990058D797 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		7A69CF7E21B76B990058D797 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		7A69CF8021B7702E0058D797 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		7A69CF8121B7702E0058D797 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		7A69CF8321B771170058D797 /* ObjectLeakDetector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectLeakDetector.h; sourceTree = "<group>"; };
+		7A69CF8421B771170058D797 /* ObjectLeakDetector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectLeakDetector.m; sourceTree = "<group>"; };
+		7A69CF8621B7A9DE0058D797 /* UIViewController+Leak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Leak.h"; sourceTree = "<group>"; };
+		7A69CF8721B7A9DE0058D797 /* UIViewController+Leak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Leak.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +96,12 @@
 				7A69CF7C21B769390058D797 /* LeakFinder.h */,
 				7A69CF7921B761DF0058D797 /* LeaksTools.h */,
 				7A69CF7A21B761DF0058D797 /* LeaksTools.m */,
+				7A69CF8321B771170058D797 /* ObjectLeakDetector.h */,
+				7A69CF8421B771170058D797 /* ObjectLeakDetector.m */,
+				7A69CF8021B7702E0058D797 /* NSObject+Swizzling.h */,
+				7A69CF8121B7702E0058D797 /* NSObject+Swizzling.m */,
+				7A69CF8621B7A9DE0058D797 /* UIViewController+Leak.h */,
+				7A69CF8721B7A9DE0058D797 /* UIViewController+Leak.m */,
 			);
 			path = LeakTools;
 			sourceTree = "<group>";
@@ -162,10 +177,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A69CF7B21B761DF0058D797 /* LeaksTools.m in Sources */,
+				7A69CF8221B7702E0058D797 /* NSObject+Swizzling.m in Sources */,
+				7A69CF8521B771170058D797 /* ObjectLeakDetector.m in Sources */,
 				7A69CF6721B760970058D797 /* ViewController.m in Sources */,
 				7A69CF7221B760990058D797 /* main.m in Sources */,
 				7A69CF6421B760970058D797 /* AppDelegate.m in Sources */,
 				7A69CF7F21B76B990058D797 /* TestViewController.m in Sources */,
+				7A69CF8821B7A9DE0058D797 /* UIViewController+Leak.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

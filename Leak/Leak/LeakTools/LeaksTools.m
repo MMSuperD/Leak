@@ -41,6 +41,7 @@
     
     _timer = [NSTimer timerWithTimeInterval:0.5 target:self selector:@selector(sendPing) userInfo:nil repeats:YES];
     
+    [[NSRunLoop currentRunLoop] addTimer:_timer forMode:NSRunLoopCommonModes];
 }
 
 /**
@@ -64,6 +65,10 @@
     NSString *message = NSStringFromClass([obj class]);
     
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Oops! A leak here" message:message preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *action1 = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
+    
+    [alertController addAction:action1];
     
     UIViewController *currentRootController = [UIApplication sharedApplication].keyWindow.rootViewController;
     

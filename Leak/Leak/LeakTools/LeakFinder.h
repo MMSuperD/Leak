@@ -11,4 +11,11 @@
 
 #import "LeakTools.h"
 
+#import "ObjectLeakDetector.h"
+
+#import "NSObject+Swizzling.h"
+
+#import "UIViewController+Leak.h"
+
+
 #endif /* LeakFinder_h */
