@@ -53,7 +53,7 @@
 
 - (void)dealloc
 {
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"ping" object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"pingNotification" object:nil];
 }
 
 @end
