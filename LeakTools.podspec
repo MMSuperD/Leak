@@ -17,6 +17,6 @@ Pod::Spec.new do |spec|
   spec.author             = { "MMSuperD" => "shdjxywd@sina.com" }
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/MMSuperD/Leak.git", :tag => "#{spec.version}" }
-  spec.source_files  = "./LeakTools/*.{h,m}"
+  spec.source_files  = "LeakTools/*.{h,m}"
 
 end

@@ -33,7 +33,6 @@
 		7A69CF7121B760990058D797 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A69CF7921B761DF0058D797 /* LeaksTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeaksTools.h; sourceTree = "<group>"; };
 		7A69CF7A21B761DF0058D797 /* LeaksTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeaksTools.m; sourceTree = "<group>"; };
-		7A69CF7C21B769390058D797 /* LeakFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeakFinder.h; sourceTree = "<group>"; };
 		7A69CF7D21B76B990058D797 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		7A69CF7E21B76B990058D797 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		7A69CF8021B7702E0058D797 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
@@ -93,7 +92,6 @@
 		7A69CF7821B7619F0058D797 /* LeakTools */ = {
 			isa = PBXGroup;
 			children = (
-				7A69CF7C21B769390058D797 /* LeakFinder.h */,
 				7A69CF7921B761DF0058D797 /* LeaksTools.h */,
 				7A69CF7A21B761DF0058D797 /* LeaksTools.m */,
 				7A69CF8321B771170058D797 /* ObjectLeakDetector.h */,
