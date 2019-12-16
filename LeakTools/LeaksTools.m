@@ -27,11 +27,16 @@
 {
     self = [super init];
     if (self) {
-        
-        [self initNotification];
-        [self initTimer];
+        #if DEBUG
+            [self initFunction];
+        #endif
     }
     return self;
+}
+
+- (void)initFunction {
+    [self initNotification];
+    [self initTimer];
 }
 
 /**

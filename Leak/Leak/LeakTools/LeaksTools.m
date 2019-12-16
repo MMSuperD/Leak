@@ -1,10 +1,12 @@
 //
-//  LeaksTools.m
-//  Leak
+//  FileName:  LeaksTools.m
+//  ProjectName:  Leak
+//  Organization:  Copyright (c) Hello Technologies Co., Ltd. ____YEAR___. All rights reserves.
 //
-//  Created by sh-lx on 2018/12/5.
-//  Copyright © 2018年 sh-lx. All rights reserved.
-//
+//  Description:
+//  Author:  Fan(王丹)
+//  Create:  2019/11/1
+//  This head path is “~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist”
 
 #import "LeaksTools.h"
 #import <UIKit/UIKit.h>
@@ -27,11 +29,16 @@
 {
     self = [super init];
     if (self) {
-        
-        [self initNotification];
-        [self initTimer];
+        #if DEBUG
+            [self initFunction];
+        #endif
     }
     return self;
+}
+
+- (void)initFunction {
+    [self initNotification];
+    [self initTimer];
 }
 
 /**
