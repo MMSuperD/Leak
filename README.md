@@ -22,4 +22,4 @@ pod "LeakTools"
 ```
 
 # 效果图
-![leak](https://github.com/MMSuperD/Leak/blob/master/ResultPicture/leak.gif)
+![alt](https://github.com/MMSuperD/Leak/blob/master/ResultPicture/leak.gif)
