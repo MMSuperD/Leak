@@ -18,6 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    UILabel *titleLabel = [UILabel new];
+    [self.view addSubview:titleLabel];
+    titleLabel.backgroundColor = [UIColor grayColor];
+    [titleLabel setTextColor:[UIColor redColor]];
+    titleLabel.frame = CGRectMake(0, 200, [UIScreen mainScreen].bounds.size.width, 40);
+    titleLabel.text = @"点我哦,有惊喜";
+    titleLabel.textAlignment = NSTextAlignmentCenter;
+    
+    
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
