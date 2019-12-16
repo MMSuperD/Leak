@@ -1,10 +1,12 @@
 //
-//  ObjectLeakDetector.h
-//  Leak
+//  FileName:  ObjectLeakDetector.h
+//  ProjectName:  Leak
+//  Organization:  Copyright (c) Hello Technologies Co., Ltd. ____YEAR___. All rights reserves.
 //
-//  Created by sh-lx on 2018/12/5.
-//  Copyright © 2018年 sh-lx. All rights reserved.
-//
+//  Description:
+//  Author:  Fan(王丹)
+//  Create:  2019/11/1
+//  This head path is “~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist”
 
 #import <Foundation/Foundation.h>
 
